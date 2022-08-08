@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     transition-property: box-shadow;
-    transition-duration: var(--duration);
-  transition-timing-function: var(--cubic-bezier);
+    transition-duration: $duration;
+  transition-timing-function: $cubic-bezier;
   }
   
   .portfolio-link:hover,
@@ -20,7 +20,7 @@
     position: relative;
    overflow: hidden;
    transition-duration: 250ms;
-   transition-timing-function: var(--cubic-bezier);
+   transition-timing-function: $cubic-bezier;
 }
 
     .overlay {
@@ -34,12 +34,12 @@
       height: 100%;
       line-height: 1.6;
       font-size: 18px;
-      color: var(--white-color);
+      color: $white-color;
       padding: 63px 24px;
       transform: translateY(100%);
       background-color:rgba(33, 150, 243, 0.9);
       transition: transform 500ms ease-in-out
-       /*backdrop-filter: blur(3px);*/
+      
     }
 
     

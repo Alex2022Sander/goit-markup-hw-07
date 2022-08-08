@@ -8,12 +8,12 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--current-color);
+    color: $current-color;
     margin-bottom: 4px;
     }
     
     .card-content {
       padding: 20px 24px;
-      border: 1px solid var(--grey-card-content);
+      border: 1px solid $grey-card-content;
       border-top: none;
     }

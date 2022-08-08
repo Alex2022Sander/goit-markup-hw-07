@@ -14,7 +14,7 @@
         justify-content: center;
       width: 100%;
          height: 100%;
-         background-color: var(--modal-background);
+         background-color: $modal-background;
          
          opacity: 1;
          visibility: visible;
@@ -27,7 +27,7 @@
         width: 528px;
         height: 581px;
       padding: 40px;
-      background-color: var(--white-color);
+      background-color: $white-color;
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
        0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
       border-radius: 4px;
@@ -62,7 +62,7 @@
         font-weight: 700;
           line-height: 1.15;
           text-align: center;
-          color: var(--current-color);
+          color: $current-color;
           margin-bottom: 12px;
           font-size: 20px;
       }
@@ -72,7 +72,7 @@
         font-size: 12px;
         line-height: calc(14 / 12);
         letter-spacing: 0.01em;
-        color: var(--grey-color);
+        color: $grey-color;
         flex-direction: column;
         gap: 4px;
         margin-bottom:10px;
@@ -88,25 +88,25 @@
         width: 100%;
         padding-left: 42px;
         border-radius: 4px;
-        border: 1px solid var(--borderinput);
+        border: 1px solid $borderinput;
         outline: none;
         cursor: pointer;
         transition-property:border; 
         transition-duration: 250ms;
-        transition-timing-function: var(--cubic-bezier);
+        transition-timing-function: $cubic-bezier;
       }
       .form-input:hover, 
       .form-input:focus {
-        border: 1px solid var(--blue-logo-color);
+        border: 1px solid $blue-logo-color;
       }
       .form-input:hover + .form-icon, 
       .form-input:focus + .form-icon {
-        fill: var(--blue-logo-color);
+        fill: $blue-logo-color;
       }
       
       .form-fild:hover input,
       .form-fild:focus input{
-         border: 1px solid var(--blue-logo-color);
+         border: 1px solid $blue-logo-color;
       }
       
       .form-fild:focus-within .form-icon, 
@@ -118,7 +118,7 @@
         top: 50%;
           left: 16px;
           transform: translateY(-50%);
-          transition: fill var(--duration) var(--cubic-bezier);
+          transition: fill $duration $cubic-bezier;
       }
       .test {
         margin-bottom: 20px;
@@ -127,7 +127,7 @@
         resize: none;
         width: 100%;
         height: 120px;
-        border: 1px solid var(--borderinput);
+        border: 1px solid $borderinput;
         border-radius: 4px;
       }
       
@@ -137,12 +137,12 @@
         text-align: left;
         transition-property: border;
         transition-duration: 250ms;
-        transition-timing-function: var(--cubic-bezier);
+        transition-timing-function: $cubic-bezier;
       }
       
       .form-fild-comment:focus .call-back-comment,
       .form-fild-comment:hover .call-back-comment{
-        border: 1px solid var(--blue-logo-color);
+        border: 1px solid $blue-logo-color;
       
       }
       

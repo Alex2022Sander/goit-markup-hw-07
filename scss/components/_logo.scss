@@ -1,5 +1,5 @@
 .logo {
-    color: var(--blue-logo-color);
+    color: $blue-logo-color;
     font-family: 'Raleway',cursive;
     font-weight: 700;
     font-size: 26px;
@@ -13,9 +13,9 @@
   }
 
   .dark-logo {
-    color: var(--dark-logo-color);
+    color: $dark-logo-color;
   }
 
   .white {
-    color: var(--white-color);
+    color: $white-color;
 }

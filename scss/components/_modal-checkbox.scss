@@ -5,7 +5,7 @@
   visibility 500ms ease-out;
 }
 .register-icon-uncheck {
-  transition: fill var(--duration) var(--cubic-bezier);
+  transition: fill $duration $cubic-bezier;
 }
 
 .register-icon-check {
@@ -23,13 +23,13 @@ visibility: hidden;
 .register-icon .register-icon-uncheck,
 .register-checkbox:focus + 
 .register-icon .register-icon-uncheck {
-fill: var(--blue-logo-color);
+fill: $blue-logo-color;
 }
 
 .close-btn:hover .modal-btn-icon,
 .close-btn:focus .modal-btn-icon {
-  fill: var(--blue-logo-color);
+  fill: $blue-logo-color;
 }
 .register-form-agreement-link {
-  color: var(--blue-logo-color);
+  color: $blue-logo-color;
 }

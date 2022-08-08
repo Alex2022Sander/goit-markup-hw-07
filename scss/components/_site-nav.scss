@@ -1,7 +1,7 @@
 .nav {
     display: flex;
     align-items: center;
-    color: var(--current-color);
+    color: $current-color;
 }
 .nav__list {
     display: flex;
@@ -18,11 +18,11 @@
   align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
-    transition: color var(--duration) var(--cubic-bezier);
+    transition: color $duration $cubic-bezier;
 }
 .nav__link--active {
   position: relative;
-    color: var(--blue-logo-color);
+    color: $blue-logo-color;
 }
 
 .nav__link.nav__link--active::after {
@@ -33,16 +33,16 @@
 	width: 100%;
 	height: 4px;
 	border-radius: 2px;
-  background-color: var(--blue-logo-color);
+  background-color: $blue-logo-color;
   }
 
 .nav__link.list {
-    color: var(--current-color);
+    color: $current-color;
 }
 
 .nav__link .link:hover,
 .nav__link .link:focus {
-    color: var(--blue-logo-color);
+    color: $blue-logo-color;
 }
 .contact-list {
     display: flex;
@@ -61,5 +61,5 @@
 .nav__link:hover,
 .nav__link:focus
  {
-  color: var(--blue-logo-color);
+  color: $blue-logo-color;
 }
