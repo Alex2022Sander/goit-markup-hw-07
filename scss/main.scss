@@ -1,1 +1,24 @@
-@import "./utils/variables";
+//utils style
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+//base style
+@import './base/base';
+@import './base/reset';
+
+//components style
+@import './components/buttons';
+@import './components/card-set';
+@import './components/container';
+@import './components/footer-social';
+@import './components/logo';
+@import './components/modal-checkbox';
+@import './components/modal';
+@import './components/section';
+@import './components/site-nav';
+@import './components/social-list';
+@import './components/title';
+
+
+//layouts style
+@import './layouts/header';
