@@ -1,0 +1,32 @@
+.we-do__container{
+    padding-top: 0;
+    
+    }
+    .we-do-list {
+      --card-item: 3;
+    }
+    
+    .we-do-list__item {
+      position: relative;
+    }
+    .we-do-list__text {
+      position: absolute;
+      z-index: 1;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 70px;
+      padding-right: 24px;
+      padding-left: 24px;
+      background-color: var(--bgcolor-wdtext);
+    }
+    .we-do-list__title {
+      line-height: 1.14;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      color: var(--white-color);
+    }

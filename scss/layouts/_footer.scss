@@ -1,0 +1,44 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+      background-color: var(--background-dark-grey);
+  }
+  
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+     gap: 70px;
+  }
+  
+  
+  .footer .logo {
+      margin-bottom: 20px;
+     }
+  
+  .address {
+      font-style: inherit;
+  }
+  
+  .address-list {
+    display: flex; 
+    gap: 9px;
+    flex-direction: column;
+  }
+  .address .link {
+    transition-property: color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--cubic-bezier);
+  }
+  
+  .address-link {
+      color: var(--footer-primary-color);
+  }
+  
+  .street {
+      color: var(--white-color);
+      
+  }
+  .address .link:hover,
+  .address .link:focus{
+      color: var(--blue-logo-color);
+  }
