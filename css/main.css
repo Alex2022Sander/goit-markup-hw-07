@@ -4,7 +4,7 @@
   --card-set-gap: 30px;
 }
 
-.visuaaly-hidden {
+.visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
