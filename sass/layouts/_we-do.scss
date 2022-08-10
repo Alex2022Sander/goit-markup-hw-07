@@ -1,16 +1,16 @@
-.we-do__container{
+.we-do {
+&__container {
     padding-top: 0;
-    
+    } 
+  }
+    .we-do__list {
+    --card-item: 3;
     }
-    .we-do-list {
-      --card-item: 3;
-    }
-    
-    .we-do-list__item {
+    .we-do__item {
       position: relative;
     }
-    .we-do-list__text {
-      position: absolute;
+    .we-do__text {
+   position: absolute;
       z-index: 1;
       bottom: 0;
       left: 0;
@@ -23,10 +23,12 @@
       padding-left: 24px;
       background-color: $bgcolor-wdtext;
     }
-    .we-do-list__title {
-      line-height: 1.14;
+   
+    .we-do__title {
+   line-height: 1.14;
       font-weight: 700;
       text-align: center;
       text-transform: uppercase;
       color: $white-color;
     }
+  
